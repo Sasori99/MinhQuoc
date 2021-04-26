@@ -1,0 +1,7 @@
+Giả sử branchA có lịch sử commit có mã commit: 1 - 2. 
+BranchB được checkout từ branchA tại commit có mã commit là 1 
+và có lịch sử commit của branchB : 1 - 3 - 4. 
+Khi merge branchB vào branchA bằng 2 lệnh "git checkout branchA" v
+à "git merge branchB" thì lịch sử commit của branchA là gì.
+Và mã commit 3 và 4 được tạo ra sau mã commit: 2
+- Lịch sử commit trên branchA sẽ có thứ tự là 1 - 2 - 3 - 4
